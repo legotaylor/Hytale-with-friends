@@ -1,0 +1,20 @@
+{
+  "Group": "legotaylor",
+  "Name": "Hyale with friends",
+  "Version": "1.0",
+  "Description": "Custom server resources",
+  "Authors": [
+    {
+      "Name": "dannytaylor",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

@@ -1,0 +1,134 @@
+{
+  "TranslationProperties": {
+    "Name": "server.Hytale_with_friends.items.Bench_StrangeBench.name",
+    "Description": "server.Hytale_with_friends.items.Bench_StrangeBench.description"
+  },
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+	  {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 3
+      },
+      {
+        "Quantity": 4,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 3,
+        "ResourceTypeId": "Rock"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_StrangeBench.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Strangebench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Strangebench_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Workbench",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Strangebench_Tools",
+          "Icon": "Icons/CraftingCategories/Strangebench/Tools.png",
+          "Name": "server.Hytale_with_friends.benchCategories.strangebench.tools"
+        },
+        {
+          "Id": "Strangebench_Weapons",
+          "Icon": "Icons/CraftingCategories/Strangebench/Weapons.png",
+          "Name": "server.Hytale_with_friends.benchCategories.strangebench.weapons"
+        },
+        {
+          "Id": "Strangebench_Armor",
+          "Icon": "Icons/CraftingCategories/Strangebench/Armor.png",
+          "Name": "server.Hytale_with_friends.benchCategories.strangebench.armor"
+        },
+        {
+          "Id": "Strangebench_Misc",
+          "Icon": "Icons/CraftingCategories/Strangebench/Misc.png",
+          "Name": "server.Hytale_with_friends.benchCategories.strangebench.misc"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "Strangebench"
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#385d77",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      12.9,
+      -11.7
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

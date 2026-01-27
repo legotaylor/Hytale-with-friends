@@ -1,0 +1,40 @@
+{
+  "Parent": "Weapon_Daggers_Adamantite",
+  "TranslationProperties": {
+    "Name": "server.Hytale_with_friends.items.Weapon_Daggers_Taylor.name"
+  },
+  "Model": "Items/Weapons/Dagger/Taylor.blockymodel",
+  "Texture": "Items/Weapons/Dagger/Taylor_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Daggers_Taylor.png",
+  "Recipe": {
+    "TimeSeconds": 1.0,
+    "BenchRequirement": [
+      {
+        "Id": "Strangebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Strangebench_Weapons"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Weapon_Daggers_Adamantite",
+        "Quantity": 1
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -26
+    ]
+  }
+}

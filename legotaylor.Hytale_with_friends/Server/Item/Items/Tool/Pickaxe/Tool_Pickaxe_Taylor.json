@@ -1,0 +1,40 @@
+{
+  "TranslationProperties": {
+    "Name": "server.Hytale_with_friends.items.Tool_Pickaxe_Taylor.name"
+  },
+  "Parent": "Tool_Pickaxe_Adamantite",
+  "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Taylor.png",
+  "Model": "Items/Tools/Pickaxe/Taylor.blockymodel",
+  "Texture": "Items/Tools/Pickaxe/Taylor_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 1.0,
+    "BenchRequirement": [
+      {
+        "Id": "Strangebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Strangebench_Tools"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Tool_Pickaxe_Adamantite",
+        "Quantity": 1
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      28,
+      -29
+    ]
+  }
+}

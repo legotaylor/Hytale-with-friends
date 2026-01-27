@@ -1,0 +1,40 @@
+{
+  "TranslationProperties": {
+    "Name": "server.Hytale_with_friends.items.Armor_Taylor_Head.name"
+  },
+  "Parent": "Armor_Adamantite_Head",
+  "Icon": "Icons/ItemsGenerated/Armor_Taylor_Head.png",
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      23.06,
+      43.315,
+      23.06
+    ],
+    "Translation": [
+      0,
+      -1.5
+    ]
+  },
+  "Model": "Items/Armors/Taylor/Head.blockymodel",
+  "Texture": "Items/Armors/Taylor/Head_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 1.0,
+    "BenchRequirement": [
+      {
+        "Id": "Strangebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Strangebench_Armor"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Armor_Adamantite_Head",
+        "Quantity": 1
+      }
+    ]
+  }
+}

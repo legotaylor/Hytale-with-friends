@@ -1,0 +1,40 @@
+{
+  "Parent": "Weapon_Shield_Adamantite",
+  "TranslationProperties": {
+    "Name": "server.Hytale_with_friends.items.Weapon_Shield_Taylor.name"
+  },
+  "Model": "Items/Weapons/Shield/Taylor.blockymodel",
+  "Texture": "Items/Weapons/Shield/Taylor_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Shield_Taylor.png",
+  "Recipe": {
+    "TimeSeconds": 1.0,
+    "BenchRequirement": [
+      {
+        "Id": "Strangebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Strangebench_Weapons"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Weapon_Shield_Adamantite",
+        "Quantity": 1
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      316,
+      273,
+      0
+    ],
+    "Translation": [
+      -32,
+      -34
+    ]
+  }
+}

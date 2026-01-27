@@ -1,0 +1,8 @@
+{
+  "SoundEvents": {
+    "Walk": "SFX_Cloth_Walk",
+    "Land": "SFX_Cloth_Land",
+    "Break": "SFX_BingBong_Break",
+    "Build": "SFX_BingBong_Build"
+  }
+}
