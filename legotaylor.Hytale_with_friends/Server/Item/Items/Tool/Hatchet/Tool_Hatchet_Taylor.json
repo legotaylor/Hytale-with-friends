@@ -27,13 +27,13 @@
   "IconProperties": {
     "Scale": 0.45,
     "Rotation": [
-      45,
+      315,
       270,
       0
     ],
     "Translation": [
-      30,
-      -21
+      -24,
+      -31
     ]
   },
   "Icon": "Icons/ItemsGenerated/Tool_Hatchet_Taylor.png"
