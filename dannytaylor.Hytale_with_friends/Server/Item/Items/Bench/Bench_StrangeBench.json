@@ -105,7 +105,7 @@
       }
     },
     "BlockParticleSetId": "Wood",
-    "ParticleColor": "#6e4a2f",
+    "ParticleColor": "#385d77",
     "Support": {
       "Down": [
         {
@@ -115,7 +115,7 @@
     },
     "BlockSoundSetId": "Wood",
     "PhysicalMaterialId": "Wood",
-    "TextureComputedColor": "#6C4C30"
+    "TextureComputedColor": "#385d77"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
