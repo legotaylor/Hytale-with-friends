@@ -1,16 +1,17 @@
 {
-  "Group": "legotaylor",
-  "Name": "Hyale with friends",
-  "Version": "1.0",
+  "Group": "dannytaylor",
+  "Name": "Hytale with friends",
+  "Version": "1.1",
   "Description": "Custom server resources",
   "Authors": [
     {
       "Name": "dannytaylor",
-      "Email": "",
+      "Email": "me@dannytaylor.dev",
       "Url": ""
     }
   ],
   "Website": "",
+  "ServerVersion": ">=0.5.0 <0.6.0",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},
