@@ -6,7 +6,7 @@
   "Recipe": {
     "TimeSeconds": 3,
     "Input": [
-	  {
+      {
         "ItemId": "Ingredient_Bar_Cobalt",
         "Quantity": 12
       },
@@ -83,8 +83,12 @@
       "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Id": "Strangebench"
     },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
     "State": {
-      "Id": "crafting",
       "Definitions": {
         "CraftCompleted": {
           "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim",
@@ -101,7 +105,7 @@
       }
     },
     "BlockParticleSetId": "Wood",
-    "ParticleColor": "#385d77",
+    "ParticleColor": "#6e4a2f",
     "Support": {
       "Down": [
         {
@@ -109,14 +113,16 @@
         }
       ]
     },
-    "BlockSoundSetId": "Wood"
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "TextureComputedColor": "#6C4C30"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
     "Scale": 0.42,
     "Rotation": [
       22.5,
-      45,
+      45.0,
       22.5
     ],
     "Translation": [
