@@ -22,7 +22,7 @@
         "Id": "Strangebench",
         "Type": "Crafting",
         "Categories": [
-          "Strangebench_Misc"
+          "Strangebench_Custom"
         ],
         "RequiredTierLevel": 0
       }
@@ -32,10 +32,10 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Miscellaneous/BingBong_Plush.blockymodel",
+    "CustomModel": "Blocks/Custom/BingBong/BingBong_Plush.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Miscellaneous/BingBong_Plush_Texture.png",
+        "Texture": "Blocks/Custom/BingBong/BingBong_Plush_Texture.png",
         "Weight": 1
       }
     ],

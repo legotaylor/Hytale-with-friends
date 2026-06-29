@@ -1,0 +1,24 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Silver"
+    },
+    {
+      "ResourceTypeId": "Wood_Deadwood"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Furniture_Human_Ruins_Bench",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Id": "Strangebench",
+      "Type": "Crafting",
+      "Categories": [
+        "Strangebench_Uncraftable"
+      ],
+      "RequiredTierLevel": 2
+    }
+  ]
+}

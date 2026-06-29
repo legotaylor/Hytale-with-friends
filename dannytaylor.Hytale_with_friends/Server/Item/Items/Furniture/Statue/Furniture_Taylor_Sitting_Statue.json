@@ -27,7 +27,7 @@
         "Id": "Strangebench",
         "Type": "Crafting",
         "Categories": [
-          "Strangebench_Misc"
+          "Strangebench_Custom"
         ],
         "RequiredTierLevel": 0
       }
@@ -43,10 +43,10 @@
     "BlockParticleSetId": "Stone",
     "ParticleColor": "#bbbbaf",
     "BlockSoundSetId": "Stone",
-    "CustomModel": "Blocks/Furniture/Statue/Taylor_Sitting_Statue.blockymodel",
+    "CustomModel": "Blocks/Custom/Taylor_Statue/Taylor_Sitting_Statue.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/Statue/Taylor_Statue.png",
+        "Texture": "Blocks/Custom/Taylor_Statue/Taylor_Statue.png",
         "Weight": 1
       }
     ],

@@ -1,9 +1,7 @@
 Hytale_with_friends.items.Bench_StrangeBench.description = A workstation enabling the creation of customized tools and items.
 Hytale_with_friends.items.Bench_StrangeBench.name = Strange Workbench
-Hytale_with_friends.benchCategories.strangebench.tools = Tools
-Hytale_with_friends.benchCategories.strangebench.armor = Armor
-Hytale_with_friends.benchCategories.strangebench.weapons = Weapons
-Hytale_with_friends.benchCategories.strangebench.misc = Misc
+Hytale_with_friends.benchCategories.strangebench.custom = Custom Blocks
+Hytale_with_friends.benchCategories.strangebench.customtextured = Custom Textured
 Hytale_with_friends.benchCategories.strangebench.uncraftable = Non-craftables
 Hytale_with_friends.items.Weapon_Daggers_Taylor.name = Taylor's Daggers
 Hytale_with_friends.items.Weapon_Shield_Taylor.name = Taylor's Shield

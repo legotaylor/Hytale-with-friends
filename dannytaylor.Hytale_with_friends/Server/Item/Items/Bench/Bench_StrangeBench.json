@@ -55,24 +55,14 @@
       "Type": "Crafting",
       "Categories": [
         {
-          "Id": "Strangebench_Tools",
-          "Icon": "Icons/CraftingCategories/Strangebench/Tools.png",
-          "Name": "server.Hytale_with_friends.benchCategories.strangebench.tools"
+          "Id": "Strangebench_Custom",
+          "Icon": "Icons/CraftingCategories/Strangebench/Custom.png",
+          "Name": "server.Hytale_with_friends.benchCategories.strangebench.custom"
         },
         {
-          "Id": "Strangebench_Weapons",
-          "Icon": "Icons/CraftingCategories/Strangebench/Weapons.png",
-          "Name": "server.Hytale_with_friends.benchCategories.strangebench.weapons"
-        },
-        {
-          "Id": "Strangebench_Armor",
-          "Icon": "Icons/CraftingCategories/Strangebench/Armor.png",
-          "Name": "server.Hytale_with_friends.benchCategories.strangebench.armor"
-        },
-        {
-          "Id": "Strangebench_Misc",
-          "Icon": "Icons/CraftingCategories/Strangebench/Misc.png",
-          "Name": "server.Hytale_with_friends.benchCategories.strangebench.misc"
+          "Id": "Strangebench_CustomTextured",
+          "Icon": "Icons/CraftingCategories/Strangebench/CustomTextured.png",
+          "Name": "server.Hytale_with_friends.benchCategories.strangebench.customtextured"
         },
         {
           "Id": "Strangebench_Uncraftable",

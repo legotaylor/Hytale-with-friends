@@ -1,0 +1,30 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Bar_Silver",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Furniture_Crude_Candle",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Tree_Sap",
+      "Quantity": 4
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Furniture_Human_Ruins_Lantern",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Id": "Strangebench",
+      "Type": "Crafting",
+      "Categories": [
+        "Strangebench_Uncraftable"
+      ],
+      "RequiredTierLevel": 2
+    }
+  ]
+}

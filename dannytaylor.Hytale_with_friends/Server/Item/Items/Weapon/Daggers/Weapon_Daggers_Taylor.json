@@ -13,7 +13,7 @@
         "Id": "Strangebench",
         "Type": "Crafting",
         "Categories": [
-          "Strangebench_Weapons"
+          "Strangebench_CustomTextured"
         ],
         "RequiredTierLevel": 0
       }
