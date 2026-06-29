@@ -23,6 +23,8 @@
 - Custom Recipes for non-craftable items
   - Simple Wooden Bench
   - Light Temple Bench
+  - Ancient Civilization Bench
+  - Ancient Civilization Lantern
 
 ## TODO
 - Replace vanilla textures that set off Trypophobia with custom ones.
