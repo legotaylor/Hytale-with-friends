@@ -1,15 +1,15 @@
 {
   "TranslationProperties": {
-    "Name": "server.Hytale_with_friends.items.Deco_BingBong_Plush.name"
+    "Name": "server.Hytale_with_friends.items.Deco_Blahaj_Plush.name"
   },
-  "Icon": "Icons/ItemsGenerated/Deco_BingBong_Plush.png",
+  "Icon": "Icons/ItemsGenerated/Deco_Blahaj_Plush.png",
   "Categories": [
     "Blocks.Deco"
   ],
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Green",
+        "ItemId": "Cloth_Block_Wool_Blue_Light",
         "Quantity": 2
       },
       {
@@ -28,19 +28,23 @@
       }
     ]
   },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Custom/Plush/BingBong/BingBong_Plush.blockymodel",
+    "CustomModel": "Blocks/Custom/Plush/Blahaj/Blahaj_Plush.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Custom/Plush/BingBong/BingBong_Plush_Texture.png",
+        "Texture": "Blocks/Custom/Plush/Blahaj/Blahaj_Plush_Texture.png",
         "Weight": 1
       }
     ],
     "Group": "Wood",
-    "HitboxType": "Bing_Bong",
+    "HitboxType": "Blahaj",
     "VariantRotation": "NESW",
     "Flags": {},
     "Gathering": {
@@ -49,14 +53,15 @@
       }
     },
     "BlockParticleSetId": "Stone",
-    "BlockSoundSetId": "BingBong",
+    "BlockSoundSetId": "Plushie",
+    "PhysicalMaterialId": "Wool",
     "Interactions": {
       "Use": {
         "Interactions": [
           {
             "Type": "Simple",
             "Effects": {
-              "WorldSoundEventId": "SFX_BingBong_Use"
+              "WorldSoundEventId": "SFX_Plushie_Build"
             }
           }
         ]
@@ -83,18 +88,20 @@
           "FaceType": "Full"
         }
       ]
-    }
+    },
+    "TextureComputedColor": "#85402A"
   },
+  "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 1,
-    "Rotation": [
-      16,
-      24,
-      0
-    ],
+    "Scale": 0.685,
     "Translation": [
-      3,
-      -6
+      -1.7,
+      -13.1
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
     ]
   },
   "Tags": {
@@ -102,11 +109,8 @@
       "Deco"
     ],
     "Family": [
-      "BingBong"
+      "Blahaj"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Wood",
-  "MaxStack": 1,
-  "UsePlayerAnimations": true,
-  "PlayerAnimationsId": "Block"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }
