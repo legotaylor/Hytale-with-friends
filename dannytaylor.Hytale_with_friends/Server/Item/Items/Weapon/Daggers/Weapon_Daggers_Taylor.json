@@ -7,7 +7,7 @@
   "Texture": "Items/Weapons/Dagger/Taylor_Texture.png",
   "Icon": "Icons/ItemsGenerated/Weapon_Daggers_Taylor.png",
   "Recipe": {
-    "TimeSeconds": 1.0,
+    "TimeSeconds": 2.0,
     "BenchRequirement": [
       {
         "Id": "Strangebench",

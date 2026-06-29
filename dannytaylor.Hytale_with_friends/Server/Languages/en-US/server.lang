@@ -4,6 +4,7 @@ Hytale_with_friends.benchCategories.strangebench.custom = Custom Blocks
 Hytale_with_friends.benchCategories.strangebench.customtextured = Custom Textured
 Hytale_with_friends.benchCategories.strangebench.uncraftable = Non-craftables
 Hytale_with_friends.items.Weapon_Daggers_Taylor.name = Taylor's Daggers
+Hytale_with_friends.items.Weapon_Daggers_Taylor_Saurian.name = Taylor's Saurian Daggers
 Hytale_with_friends.items.Weapon_Shield_Taylor.name = Taylor's Shield
 Hytale_with_friends.items.Tool_Hatchet_Taylor.name = Taylor's Axe
 Hytale_with_friends.items.Tool_Pickaxe_Taylor.name = Taylor's Pickaxe
@@ -14,6 +15,7 @@ Hytale_with_friends.items.Armor_Taylor_Legs.name = Taylor's Leggings
 Hytale_with_friends.items.Furniture_Taylor_Statue.name = Statue of Taylor
 Hytale_with_friends.items.Furniture_Taylor_Sitting_Statue.name = Statue of Taylor (Sitting)
 Hytale_with_friends.items.Deco_BingBong_Plush.name = Bing Bong
+Hytale_with_friends.items.Furniture_Capybara_Painting_2x2.name = Capybara Painting
 
 memories.general.chestActive.level1.rewards = \nCan craft the following:\n• +3 Decorative Chests (Furniture Workbench)\n• +2 Eternal Seeds (Farmer's Workbench)\n\n+2 Maximum Teleporters\n\nWork in Progress
 memories.general.chestActive.level2.rewards = \nCan craft the following:\n• +3 Decorative Chests (Furniture Workbench)\n• +4 Eternal Seeds (Farmer's Workbench)\n\n+4 Maximum Teleporters\n\nWork in Progress

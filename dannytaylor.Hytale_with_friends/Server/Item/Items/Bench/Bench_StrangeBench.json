@@ -79,7 +79,7 @@
       "Id": "Strangebench",
       "TierLevels": [
         {
-          "CraftingTimeReductionModifier": 0.0,
+          "CraftingTimeReductionModifier": 0.5,
           "UpgradeRequirement": {
             "Material": [
               {

@@ -21,7 +21,7 @@
     ]
   },
   "Recipe": {
-    "TimeSeconds": 1.0,
+    "TimeSeconds": 2.5,
     "BenchRequirement": [
       {
         "Id": "Strangebench",

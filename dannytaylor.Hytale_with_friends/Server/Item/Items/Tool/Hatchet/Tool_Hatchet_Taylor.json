@@ -6,7 +6,7 @@
   "Model": "Items/Tools/Hatchet/Taylor.blockymodel",
   "Texture": "Items/Tools/Hatchet/Taylor_Texture.png",
   "Recipe": {
-    "TimeSeconds": 1.0,
+    "TimeSeconds": 2.0,
     "BenchRequirement": [
       {
         "Id": "Strangebench",

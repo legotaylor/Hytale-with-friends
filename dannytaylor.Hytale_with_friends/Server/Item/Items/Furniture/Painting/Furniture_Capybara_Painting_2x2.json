@@ -1,0 +1,92 @@
+{
+  "TranslationProperties": {
+    "Name": "server.Hytale_with_friends.items.Furniture_Capybara_Painting_2x2.name"
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Strangebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Strangebench_Custom"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Custom/Painting/Capybara_2x2/Capybara_Painting_2x2.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Blocks/Custom/Painting/Capybara_2x2/Capybara_Painting_2x2_Texture.png"
+      }
+    ],
+    "CustomModelScale": 1,
+    "HitboxType": "Painting_2x2",
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#684127",
+    "TextureComputedColor": "#B5A56B"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.37,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      22.3,
+      -28.7
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Quality": "Common",
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/Furniture_Capybara_Painting_2x2.png"
+}

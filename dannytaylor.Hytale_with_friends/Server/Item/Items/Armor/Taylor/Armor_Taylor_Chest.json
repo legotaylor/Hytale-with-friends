@@ -19,7 +19,7 @@
   "Model": "Items/Armors/Taylor/Chest.blockymodel",
   "Texture": "Items/Armors/Taylor/Chest_Texture.png",
   "Recipe": {
-    "TimeSeconds": 1.0,
+    "TimeSeconds": 2.0,
     "BenchRequirement": [
       {
         "Id": "Strangebench",
