@@ -20,7 +20,9 @@
   - Level 3: 16
   - Level 4: 32
   - Level 5: ∞
-
+- Custom Recipes for non-craftable items
+  - Simple Wooden Bench
+  - Light Temple Bench
 
 ## TODO
 - Replace vanilla textures that set off Trypophobia with custom ones.

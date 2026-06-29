@@ -12,14 +12,14 @@
       },
       {
         "ItemId": "Ingredient_Bar_Thorium",
-        "Quantity": 3
+        "Quantity": 4
       },
       {
-        "Quantity": 4,
+        "Quantity": 10,
         "ResourceTypeId": "Wood_Trunk"
       },
       {
-        "Quantity": 3,
+        "Quantity": 5,
         "ResourceTypeId": "Rock"
       }
     ],
@@ -73,6 +73,11 @@
           "Id": "Strangebench_Misc",
           "Icon": "Icons/CraftingCategories/Strangebench/Misc.png",
           "Name": "server.Hytale_with_friends.benchCategories.strangebench.misc"
+        },
+        {
+          "Id": "Strangebench_Uncraftable",
+          "Icon": "Icons/CraftingCategories/Strangebench/Uncraftable.png",
+          "Name": "server.Hytale_with_friends.benchCategories.strangebench.uncraftable"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",
@@ -81,7 +86,29 @@
       "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
       "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
       "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
-      "Id": "Strangebench"
+      "Id": "Strangebench",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Adamantite",
+                "Quantity": 8
+              },
+              {
+                "Quantity": 4,
+                "ItemId": "Rock_Marble_Cobble"
+              },
+              {
+                "Quantity": 2,
+                "ItemId": "Cloth_Block_Wool_Green"
+              }
+            ],
+            "TimeSeconds": 5.0
+          }
+        }
+      ]
     },
     "BlockEntity": {
       "Components": {
@@ -96,6 +123,23 @@
         },
         "CraftCompletedInstant": {
           "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
+        },
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/Strangebench.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Strangebench2_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench",
+          "State": {
+            "Definitions": {
+              "CraftCompleted": {
+                "CustomModelAnimation": "Blocks/Benches/Workbench_Crafting.blockyanim"
+              }
+            }
+          }
         }
       }
     },

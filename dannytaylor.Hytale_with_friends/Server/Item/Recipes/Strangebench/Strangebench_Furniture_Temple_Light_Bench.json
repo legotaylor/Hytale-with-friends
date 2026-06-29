@@ -1,0 +1,21 @@
+{
+  "Input": [
+    {
+      "ItemId": "Rock_Marble_Brick_Smooth"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Furniture_Temple_Light_Bench",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Id": "Strangebench",
+      "Type": "Crafting",
+      "Categories": [
+        "Strangebench_Uncraftable"
+      ],
+      "RequiredTierLevel": 2
+    }
+  ]
+}

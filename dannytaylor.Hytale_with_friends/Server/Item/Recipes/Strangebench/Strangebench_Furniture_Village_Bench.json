@@ -1,0 +1,21 @@
+{
+  "Input": [
+    {
+      "ResourceTypeId": "Wood_Hardwood"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Furniture_Village_Bench",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Id": "Strangebench",
+      "Type": "Crafting",
+      "Categories": [
+        "Strangebench_Uncraftable"
+      ],
+      "RequiredTierLevel": 2
+    }
+  ]
+}
